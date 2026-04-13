@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enterprise Solutions – Solar & Engineering Experts</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <img src="logo.jpg" alt="Enterprise Solutions Logo" />
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-cta" onclick="scrollToSection('contact')">Get a Quote</button>
+      <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1920&q=80&fit=crop" alt="Solar Panels in the Sun" class="hero-bg" />
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Let the Sun<br /><span class="gold">Pay Your Bills</span></h1>
+      <p>Solar engineering, electrical works, plumbing, real estate & more — all under one roof in Epe, Lagos.</p>
+      <div class="hero-btns">
+        <button class="btn-primary" onclick="scrollToSection('services')">Explore Services</button>
+        <button class="btn-outline" onclick="scrollToSection('contact')">Contact Us</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TICKER ===== -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span>⚡ Solar Engineering &nbsp;•&nbsp; Electrical Engineering &nbsp;•&nbsp; Plumbing &nbsp;•&nbsp; Property Development &nbsp;•&nbsp; Real Estate Management &nbsp;•&nbsp; Safety Executive &nbsp;•&nbsp; Solar Installation &nbsp;•&nbsp;</span>
+      <span>⚡ Solar Engineering &nbsp;•&nbsp; Electrical Engineering &nbsp;•&nbsp; Plumbing &nbsp;•&nbsp; Property Development &nbsp;•&nbsp; Real Estate Management &nbsp;•&nbsp; Safety Executive &nbsp;•&nbsp; Solar Installation &nbsp;•&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text" data-aos="fade-right">
+          <span class="section-tag">Who We Are</span>
+          <h2>Built on Expertise.<br />Driven by <span class="gold">Innovation.</span></h2>
+          <p>Enterprise Solutions is a full-service energy and engineering company based in Eredo, Epe, Lagos. We combine cutting-edge solar technology with expert engineering to deliver reliable, sustainable, and cost-effective solutions for homes, businesses, and properties across Nigeria.</p>
+          <p>From solar panel installation to real estate management, our team of certified professionals brings precision, integrity, and excellence to every project.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <h3>500+</h3>
+              <p>Projects Completed</p>
+            </div>
+            <div class="stat">
+              <h3>10+</h3>
+              <p>Years Experience</p>
+            </div>
+            <div class="stat">
+              <h3>100%</h3>
+              <p>Client Satisfaction</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual" data-aos="fade-left">
+          <div class="about-img-wrap">
+            <img src="work 1.jpg" alt="Our Work" />
+            <div class="about-badge-float">
+              <i class="fa-solid fa-solar-panel"></i>
+              <span>Certified Solar Experts</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">What We Do</span>
+        <h2>Our <span class="gold">Services</span></h2>
+        <p>Comprehensive solutions tailored to your energy, engineering, and property needs.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-icon"><i class="fa-solid fa-solar-panel"></i></div>
+          <h3>Solar Engineering</h3>
+          <p>Custom solar system design and engineering for residential and commercial applications.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon"><i class="fa-solid fa-bolt"></i></div>
+          <h3>Electrical Engineering</h3>
+          <p>Full-scale electrical installations, maintenance, and upgrades by certified engineers.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-icon"><i class="fa-solid fa-wrench"></i></div>
+          <h3>Plumbing</h3>
+          <p>Professional plumbing services for new builds, renovations, and emergency repairs.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-icon"><i class="fa-solid fa-building"></i></div>
+          <h3>Property Developer</h3>
+          <p>End-to-end property development with a focus on sustainable, energy-efficient builds.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-icon"><i class="fa-solid fa-house-chimney"></i></div>
+          <h3>Real Estate Managers</h3>
+          <p>Expert property management services to protect and grow your real estate investments.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="service-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>Safety Executive</h3>
+          <p>HSE compliance, risk assessments, and safety management for all project types.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+          <div class="service-icon"><i class="fa-solid fa-sun"></i></div>
+          <h3>Solar Installation</h3>
+          <p>Seamless solar panel installation with post-installation support and monitoring.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY US ===== -->
+  <section class="why-us section">
+    <div class="container">
+      <div class="why-grid">
+        <div class="why-text" data-aos="fade-right">
+          <span class="section-tag">Why Choose Us</span>
+          <h2>The Enterprise<br /><span class="gold">Advantage</span></h2>
+          <ul class="why-list">
+            <li><i class="fa-solid fa-check-circle"></i> Certified and experienced engineering team</li>
+            <li><i class="fa-solid fa-check-circle"></i> Premium quality solar products and materials</li>
+            <li><i class="fa-solid fa-check-circle"></i> Transparent pricing with no hidden costs</li>
+            <li><i class="fa-solid fa-check-circle"></i> End-to-end project management</li>
+            <li><i class="fa-solid fa-check-circle"></i> After-sales support and maintenance</li>
+            <li><i class="fa-solid fa-check-circle"></i> Locally rooted, nationally trusted</li>
+          </ul>
+          <button class="btn-primary" onclick="scrollToSection('contact')">Work With Us</button>
+        </div>
+        <div class="why-visual" data-aos="fade-left">
+          <div class="why-cards">
+            <div class="why-card">
+              <i class="fa-solid fa-leaf"></i>
+              <h4>Eco-Friendly</h4>
+              <p>Clean energy solutions that reduce your carbon footprint.</p>
+            </div>
+            <div class="why-card">
+              <i class="fa-solid fa-piggy-bank"></i>
+              <h4>Cost Savings</h4>
+              <p>Cut electricity bills by up to 90% with solar power.</p>
+            </div>
+            <div class="why-card">
+              <i class="fa-solid fa-headset"></i>
+              <h4>24/7 Support</h4>
+              <p>Our team is always available when you need us.</p>
+            </div>
+            <div class="why-card">
+              <i class="fa-solid fa-certificate"></i>
+              <h4>Certified</h4>
+              <p>All installations meet Nigerian and international standards.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS / SALES ===== -->
+  <section class="products section" id="products">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Our Store</span>
+        <h2>Solar <span class="gold">Products</span></h2>
+        <p>Top-grade solar equipment and accessories available for purchase.</p>
+      </div>
+      <div class="products-grid">
+        <div class="product-card" data-aos="zoom-in" data-aos-delay="0">
+          <div class="product-img-wrap">
+            <img src="sale 1.jpg" alt="Product 1" />
+            <div class="product-badge">Available</div>
+          </div>
+          <div class="product-info">
+            <h4>Solar Product 1</h4>
+            <p class="product-desc">High-efficiency solar equipment for your energy needs.</p>
+            <div class="product-footer">
+              <span class="price">₦0</span>
+              <button class="btn-buy" onclick="scrollToSection('contact')">Enquire</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="product-img-wrap">
+            <img src="sale 2.png" alt="Product 2" />
+            <div class="product-badge">Available</div>
+          </div>
+          <div class="product-info">
+            <h4>Solar Product 2</h4>
+            <p class="product-desc">High-efficiency solar equipment for your energy needs.</p>
+            <div class="product-footer">
+              <span class="price">₦0</span>
+              <button class="btn-buy" onclick="scrollToSection('contact')">Enquire</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="product-img-wrap">
+            <img src="sale 3.png" alt="Product 3" />
+            <div class="product-badge">Available</div>
+          </div>
+          <div class="product-info">
+            <h4>Solar Product 3</h4>
+            <p class="product-desc">High-efficiency solar equipment for your energy needs.</p>
+            <div class="product-footer">
+              <span class="price">₦0</span>
+              <button class="btn-buy" onclick="scrollToSection('contact')">Enquire</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="product-img-wrap">
+            <img src="sale 4.png" alt="Product 4" />
+            <div class="product-badge">Available</div>
+          </div>
+          <div class="product-info">
+            <h4>Solar Product 4</h4>
+            <p class="product-desc">High-efficiency solar equipment for your energy needs.</p>
+            <div class="product-footer">
+              <span class="price">₦0</span>
+              <button class="btn-buy" onclick="scrollToSection('contact')">Enquire</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card" data-aos="zoom-in" data-aos-delay="400">
+          <div class="product-img-wrap">
+            <img src="sale 5.png" alt="Product 5" />
+            <div class="product-badge">Available</div>
+          </div>
+          <div class="product-info">
+            <h4>Solar Product 5</h4>
+            <p class="product-desc">High-efficiency solar equipment for your energy needs.</p>
+            <div class="product-footer">
+              <span class="price">₦0</span>
+              <button class="btn-buy" onclick="scrollToSection('contact')">Enquire</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card" data-aos="zoom-in" data-aos-delay="500">
+          <div class="product-img-wrap">
+            <img src="sale 6.png" alt="Product 6" />
+            <div class="product-badge">Available</div>
+          </div>
+          <div class="product-info">
+            <h4>Solar Product 6</h4>
+            <p class="product-desc">High-efficiency solar equipment for your energy needs.</p>
+            <div class="product-footer">
+              <span class="price">₦0</span>
+              <button class="btn-buy" onclick="scrollToSection('contact')">Enquire</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Our Work</span>
+        <h2>Project <span class="gold">Gallery</span></h2>
+        <p>A glimpse of the quality and craftsmanship we bring to every project.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="0"><img src="work 1.jpg" alt="Project 1" /><div class="gallery-overlay"><span>View Project</span></div></div>
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="80"><img src="work 2.jpg" alt="Project 2" /><div class="gallery-overlay"><span>View Project</span></div></div>
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="160"><img src="work 3.jpg" alt="Project 3" /><div class="gallery-overlay"><span>View Project</span></div></div>
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="240"><img src="work 4.jpg" alt="Project 4" /><div class="gallery-overlay"><span>View Project</span></div></div>
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="320"><img src="work 5.jpg" alt="Project 5" /><div class="gallery-overlay"><span>View Project</span></div></div>
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="400"><img src="work 6.jpg" alt="Project 6" /><div class="gallery-overlay"><span>View Project</span></div></div>
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="480"><img src="work 7.jpg" alt="Project 7" /><div class="gallery-overlay"><span>View Project</span></div></div>
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="560"><img src="work 8.jpg" alt="Project 8" /><div class="gallery-overlay"><span>View Project</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <section class="cta-banner">
+    <div class="cta-overlay"></div>
+    <div class="cta-content" data-aos="zoom-in">
+      <h2>Ready to Switch to Solar?</h2>
+      <p>Join hundreds of satisfied customers powering their homes and businesses with clean energy.</p>
+      <button class="btn-primary" onclick="scrollToSection('contact')">Get a Free Quote Today</button>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Get In Touch</span>
+        <h2>Contact <span class="gold">Us</span></h2>
+        <p>We'd love to hear from you. Reach out for quotes, enquiries, or consultations.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right">
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <h4>Address</h4>
+              <p>Beside Kboom Filling Station, Eredo, LCDA, Epe 100120, Lagos</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:+2349135580443">0913 558 0443</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-clock"></i>
+            <div>
+              <h4>Hours</h4>
+              <p>Open 24 hours · Mon – Sun</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div>
+              <h4>WhatsApp</h4>
+              <p><a href="https://wa.me/2349135580443" target="_blank">Chat with us on WhatsApp</a></p>
+            </div>
+          </div>
+          <div class="map-embed">
+            <iframe
+              src="https://maps.google.com/maps?q=Eredo+LCDA+Epe+Lagos&output=embed"
+              width="100%" height="220" style="border:0; border-radius:12px;"
+              allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+        </div>
+        <form class="contact-form" data-aos="fade-left" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <input type="text" placeholder="Your Full Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email Address" required />
+          </div>
+          <div class="form-group">
+            <input type="tel" placeholder="Phone Number" />
+          </div>
+          <div class="form-group">
+            <select>
+              <option value="" disabled selected>Select a Service</option>
+              <option>Solar Engineering</option>
+              <option>Electrical Engineering</option>
+              <option>Plumbing</option>
+              <option>Property Development</option>
+              <option>Real Estate Management</option>
+              <option>Safety Executive</option>
+              <option>Solar Installation</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea rows="5" placeholder="Tell us about your project..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+          <div class="form-success" id="formSuccess">✅ Message sent! We'll get back to you shortly.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="logo.jpg" alt="Enterprise Solutions" class="footer-logo" />
+          <p>Nigeria's trusted partner for solar energy, engineering, and property solutions. Powering a brighter future.</p>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://wa.me/2349135580443" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-services">
+          <h4>Services</h4>
+          <ul>
+            <li>Solar Engineering</li>
+            <li>Electrical Engineering</li>
+            <li>Plumbing</li>
+            <li>Property Development</li>
+            <li>Real Estate Management</li>
+            <li>Safety Executive</li>
+            <li>Solar Installation</li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p><i class="fa-solid fa-location-dot"></i> Beside Kboom Filling Station, Eredo, Epe, Lagos</p>
+          <p><i class="fa-solid fa-phone"></i> <a href="tel:+2349135580443">0913 558 0443</a></p>
+          <p><i class="fa-solid fa-clock"></i> Open 24 Hours</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Enterprise Solutions. All rights reserved.</p>
+        <p>Designed with ☀️ for a brighter Nigeria</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close">&times;</span>
+    <img id="lightboxImg" src="" alt="" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
